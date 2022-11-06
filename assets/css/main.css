@@ -270,6 +270,26 @@ body {
       line-height: 68px;
       margin-bottom: 0;
       text-align: center; }
+    body #other_games .buttons button {
+      display: inline-block;
+      margin-top: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 34px;
+      transition: all linear .3s;
+      background: transparent;
+      border: none; }
+      body #other_games .buttons button:hover {
+        background: #FF6600;
+        border-radius: 5px;
+        transition: all linear .3s; }
+    body #other_games .buttons .mixitup-control-active {
+      background: #FF6600;
+      border-radius: 5px;
+      transition: all linear .3s; }
     body #other_games ul {
       text-align: center;
       padding-left: 0; }
@@ -485,6 +505,47 @@ body {
           body #latest_posts .blog_category ul li a:hover {
             color: #FF6600;
             transition: all linear .3s; }
+    body #latest_posts .pay-now {
+      margin-top: 80px;
+      background-image: url(../images/pay-out-bg.png);
+      background-position: center center;
+      background-size: cover;
+      border-radius: 24px;
+      height: 460px;
+      position: relative;
+      padding: 30px 50px; }
+      body #latest_posts .pay-now .text-content {
+        z-index: 9;
+        text-align: center; }
+        body #latest_posts .pay-now .text-content .ads_card {
+          background: #008543;
+          border-radius: 12px;
+          height: 200px; }
+          body #latest_posts .pay-now .text-content .ads_card .img-box {
+            height: 130px; }
+            body #latest_posts .pay-now .text-content .ads_card .img-box img {
+              width: 100%; }
+          body #latest_posts .pay-now .text-content .ads_card p {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 70px;
+            color: #FFFFFF; }
+            body #latest_posts .pay-now .text-content .ads_card p span {
+              color: #FF6600; }
+        body #latest_posts .pay-now .text-content h3 {
+          padding: 10px 0px 15px;
+          font-family: 'Oswald';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 53px;
+          color: #FFFFFF; }
+          body #latest_posts .pay-now .text-content h3 span {
+            color: #FF6600; }
+        body #latest_posts .pay-now .text-content .btn-bg {
+          padding: 8px 60px; }
     body #latest_posts .blog_ads {
       height: 500px;
       background-image: url("../images/ads_banner.png");
@@ -539,5 +600,31 @@ body {
       color: #fff;
       font-size: 12px;
       font-weight: 400; }
+
+/*======== large device =========*/
+/*======== medium device =========*/
+/*======== small device =========*/
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+  #loginBlock {
+    display: none; }
+
+  .navbar-nav {
+    text-align: center; }
+
+  body #banner h1 {
+    font-size: 46px;
+    margin-top: 65px;
+    text-align: center; }
+
+  body #banner p {
+    padding-right: 0px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: normal; }
+
+  body .btn-bg {
+    font-size: 20px;
+    padding: 10px 29px; } }
 
 /*# sourceMappingURL=main.css.map */
