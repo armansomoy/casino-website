@@ -10,7 +10,10 @@
 * {
     scrollbar-width: thin;
 }
-
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: #181942;
+}
 ::-webkit-scrollbar {
     width: 5px;
 }

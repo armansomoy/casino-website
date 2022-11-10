@@ -9,6 +9,10 @@
 * {
   scrollbar-width: thin; }
 
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #181942; }
+
 ::-webkit-scrollbar {
   width: 5px; }
 
@@ -71,18 +75,17 @@ header .navbar #inputSearch {
   transition: .1s; }
 
 #banner {
-  height: 675px; }
+  height: 600px; }
   #banner h1 {
     color: #fff;
     font-size: 64px;
     font-weight: 400;
     line-height: 95px;
-    margin-top: 200px; }
+    padding-top: 150px; }
   #banner p {
     color: #fff;
     font-size: 18px;
     line-height: 27px;
-    padding-right: 700px;
     margin-bottom: 60px; }
   #banner .btn-bg {
     margin-right: 20px;
@@ -96,22 +99,8 @@ header .navbar #inputSearch {
     #banner .btn-tr:hover {
       background: #FF6600;
       transition: all linear .3s; }
-
-#casino_option {
-  height: 80px;
-  line-height: 80px; }
-  #casino_option ul {
-    padding-left: 0; }
-    #casino_option ul li {
-      display: inline-block;
-      padding-right: 70px; }
-      #casino_option ul li a {
-        color: #fff;
-        font-size: 22px;
-        transition: all linear .3s; }
-        #casino_option ul li a:hover {
-          color: #222;
-          transition: all linear .3s; }
+  #banner .img-part {
+    padding-top: 50px; }
 
 #best_casino {
   padding-bottom: 40px; }
@@ -147,7 +136,7 @@ header .navbar #inputSearch {
     font-size: 36px;
     font-weight: 400;
     line-height: 54px;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 40px; }
   #best_casino .casino {
     width: 19%;
@@ -211,11 +200,11 @@ header .navbar #inputSearch {
     #trusted_casino p span {
       color: #FF6600; }
   #trusted_casino .best_casino {
-    padding: 60px;
+    padding: 15px;
     border: 1px solid #FF6600;
     border-radius: 24px;
     position: relative;
-    margin-top: 40px; }
+    margin-top: 25px; }
     #trusted_casino .best_casino .tag {
       position: absolute;
       content: '';
@@ -229,7 +218,7 @@ header .navbar #inputSearch {
       color: #fff;
       line-height: 36px; }
     #trusted_casino .best_casino .casino_card {
-      width: 100%;
+      width: 75%;
       background: #FF6600;
       border-radius: 12px; }
       #trusted_casino .best_casino .casino_card .img img {
@@ -238,22 +227,22 @@ header .navbar #inputSearch {
         padding: 10px; }
         #trusted_casino .best_casino .casino_card .details h4 {
           color: #fff;
-          font-size: 32px;
+          font-size: 22px;
           font-weight: 400;
           margin-bottom: 0; }
         #trusted_casino .best_casino .casino_card .details span {
           color: #fff;
-          font-size: 16px;
+          font-size: 13px;
           font-weight: 300;
           line-height: 23px; }
         #trusted_casino .best_casino .casino_card .details a {
           color: #fff;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 400;
           line-height: 30px; }
     #trusted_casino .best_casino .casino_bonus {
       padding-left: 25px;
-      padding-top: 30%; }
+      padding-top: 13%; }
       #trusted_casino .best_casino .casino_bonus .welcome {
         color: #fff;
         font-size: 18px;
@@ -267,7 +256,8 @@ header .navbar #inputSearch {
       #trusted_casino .best_casino .casino_bonus .promo_code {
         text-align: left; }
     #trusted_casino .best_casino .casino_updates {
-      width: 100%; }
+      width: 100%;
+      padding-top: 10px; }
       #trusted_casino .best_casino .casino_updates h6 {
         color: #fff;
         font-size: 24px;
@@ -281,10 +271,10 @@ header .navbar #inputSearch {
           color: #fff;
           font-size: 16px;
           font-weight: 400;
-          line-height: 40px; }
+          line-height: 30px; }
     #trusted_casino .best_casino .casino_play {
       text-align: center;
-      padding-top: 30%; }
+      padding-top: 20%; }
       #trusted_casino .best_casino .casino_play a {
         padding: 10px 80px; }
       #trusted_casino .best_casino .casino_play .flug {
@@ -320,6 +310,7 @@ header .navbar #inputSearch {
     border: none; }
     #other_games .buttons button:hover {
       background: #FF6600;
+      color: #fff;
       border-radius: 5px;
       transition: all linear .3s; }
   #other_games .buttons .mixitup-control-active {
@@ -386,7 +377,8 @@ header .navbar #inputSearch {
     transition: all linear .3s; }
     #other_games .browse_all:hover {
       background: transparent;
-      transition: all linear .3s; }
+      transition: all linear .3s;
+      color: #fff; }
   #other_games .paragraph {
     color: #fff;
     font-size: 20px;
@@ -399,7 +391,8 @@ header .navbar #inputSearch {
 
 #casino_location .location .exclusive_bonus {
   padding: 60px;
-  border-radius: 24px; }
+  border-radius: 24px;
+  margin-top: 50px; }
   #casino_location .location .exclusive_bonus .double {
     color: #fff;
     font-size: 20px;

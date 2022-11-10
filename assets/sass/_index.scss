@@ -44,21 +44,20 @@ header {
 }
 
 #banner {
-    height: 675px;
+    height: 600px;
 
     h1 {
         color: #fff;
         font-size: 64px;
         font-weight: 400;
         line-height: 95px;
-        margin-top: 200px;
+        padding-top: 150px;
     }
 
     p {
         color: #fff;
         font-size: 18px;
         line-height: 27px;
-        padding-right: 700px;
         margin-bottom: 60px;
     }
 
@@ -81,32 +80,12 @@ header {
             transition: all linear .3s;
         }
     }
-}
 
-#casino_option {
-    height: 80px;
-    line-height: 80px;
-
-    ul {
-        padding-left: 0;
-
-        li {
-            display: inline-block;
-            padding-right: 70px;
-
-            a {
-                color: #fff;
-                font-size: 22px;
-                transition: all linear .3s;
-
-                &:hover {
-                    color: #222;
-                    transition: all linear .3s;
-                }
-            }
-        }
+    .img-part{
+        padding-top: 50px;
     }
 }
+
 
 #best_casino {
     padding-bottom: 40px;
@@ -157,7 +136,7 @@ header {
         font-size: 36px;
         font-weight: 400;
         line-height: 54px;
-        padding-top: 80px;
+        padding-top: 40px;
         padding-bottom: 40px;
     }
 
@@ -250,11 +229,11 @@ header {
     }
 
     .best_casino {
-        padding: 60px;
+        padding: 15px;
         border: 1px solid #FF6600;
         border-radius: 24px;
         position: relative;
-        margin-top: 40px;
+        margin-top: 25px;
 
         .tag {
             position: absolute;
@@ -271,7 +250,7 @@ header {
         }
 
         .casino_card {
-            width: 100%;
+            width: 75%;
             background: #FF6600;
             border-radius: 12px;
 
@@ -286,21 +265,21 @@ header {
 
                 h4 {
                     color: #fff;
-                    font-size: 32px;
+                    font-size: 22px;
                     font-weight: 400;
                     margin-bottom: 0;
                 }
 
                 span {
                     color: #fff;
-                    font-size: 16px;
+                    font-size: 13px;
                     font-weight: 300;
                     line-height: 23px;
                 }
 
                 a {
                     color: #fff;
-                    font-size: 16px;
+                    font-size: 14px;
                     font-weight: 400;
                     line-height: 30px;
                 }
@@ -309,7 +288,7 @@ header {
 
         .casino_bonus {
             padding-left: 25px;
-            padding-top: 30%;
+            padding-top: 13%;
 
             .welcome {
                 color: #fff;
@@ -332,6 +311,7 @@ header {
 
         .casino_updates {
             width: 100%;
+            padding-top: 10px;
 
             h6 {
                 color: #fff;
@@ -351,14 +331,14 @@ header {
                     color: #fff;
                     font-size: 16px;
                     font-weight: 400;
-                    line-height: 40px;
+                    line-height: 30px;
                 }
             }
         }
 
         .casino_play {
             text-align: center;
-            padding-top: 30%;
+            padding-top: 20%;
 
             a {
                 padding: 10px 80px;
@@ -410,6 +390,7 @@ header {
 
             &:hover {
                 background: #FF6600;
+                color: #fff;
                 border-radius: 5px;
                 transition: all linear .3s;
             }
@@ -510,6 +491,7 @@ header {
         &:hover {
             background: transparent;
             transition: all linear .3s;
+            color: #fff;
         }
     }
 
@@ -532,6 +514,7 @@ header {
         .exclusive_bonus {
             padding: 60px;
             border-radius: 24px;
+            margin-top: 50px;
 
             .double {
                 color: #fff;
